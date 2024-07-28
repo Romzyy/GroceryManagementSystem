@@ -1,0 +1,217 @@
+{
+    "groceryItems": [
+        "Apple",
+        "Banana",
+        "Orange",
+        "Tomato",
+        "Potato",
+        "Carrot",
+        "Milk",
+        "Cheese",
+        "Yogurt",
+        "Chicken",
+        "Beef",
+        "Pork",
+        "Salmon",
+        "Tuna",
+        "Shrimp",
+        "Bread",
+        "Croissant",
+        "Bagel",
+        "Rice",
+        "Pasta",
+        "Lettuce",
+        "Spinach",
+        "Broccoli",
+        "Cucumber",
+        "Peppers",
+        "Mushrooms",
+        "Cream",
+        "Butter",
+        "Eggs",
+        "Lamb",
+        "Turkey"
+    ],
+    "itemDetails": {
+        "Pear": {
+            "type": "Fruit",
+            "price": 0.7,
+            "quantity": 9,
+            "expiry_date": "2024-09-20"
+        },
+        "Pineapple": {
+            "type": "Fruit",
+            "price": 1.2,
+            "quantity": 80,
+            "expiry_date": "2024-08-25"
+        },
+        "Watermelon": {
+            "type": "Fruit",
+            "price": 3,
+            "quantity": 70,
+            "expiry_date": "2024-08-15"
+        },
+        "Zucchini": {
+            "type": "Vegetable",
+            "price": 0.8,
+            "quantity": 1,
+            "expiry_date": "2024-09-10"
+        },
+        "Radish": {
+            "type": "Vegetable",
+            "price": 0.6,
+            "quantity": 110,
+            "expiry_date": "2024-08-30"
+        },
+        "Asparagus": {
+            "type": "Vegetable",
+            "price": 1.5,
+            "quantity": 60,
+            "expiry_date": "2024-09-05"
+        },
+        "Almond Milk": {
+            "type": "Dairy",
+            "price": 2,
+            "quantity": 50,
+            "expiry_date": "2024-08-25"
+        },
+        "Soy Cheese": {
+            "type": "Dairy",
+            "price": 3,
+            "quantity": 40,
+            "expiry_date": "2024-09-12"
+        },
+        "Coconut Yogurt": {
+            "type": "Dairy",
+            "price": 2.5,
+            "quantity": 60,
+            "expiry_date": "2024-07-15"
+        },
+        "Turkey Bacon": {
+            "type": "Meat",
+            "price": 6,
+            "quantity": 30,
+            "expiry_date": "2024-10-08"
+        },
+        "Lamb Chops": {
+            "type": "Meat",
+            "price": 9,
+            "quantity": 25,
+            "expiry_date": "2024-08-20"
+        },
+        "Duck Breast": {
+            "type": "Meat",
+            "price": 8,
+            "quantity": 35,
+            "expiry_date": "2024-09-28"
+        },
+        "Cod": {
+            "type": "Seafood",
+            "price": 12,
+            "quantity": 20,
+            "expiry_date": "2024-09-02"
+        },
+        "Haddock": {
+            "type": "Seafood",
+            "price": 10,
+            "quantity": 15,
+            "expiry_date": "2024-11-14"
+        },
+        "Oyster": {
+            "type": "Seafood",
+            "price": 15,
+            "quantity": 10,
+            "expiry_date": "2024-07-12"
+        },
+        "Whole Wheat Bread": {
+            "type": "Bakery",
+            "price": 1.2,
+            "quantity": 100,
+            "expiry_date": "2024-10-30"
+        },
+        "Danish Pastry": {
+            "type": "Bakery",
+            "price": 1.8,
+            "quantity": 70,
+            "expiry_date": "2024-08-18"
+        },
+        "Pretzel": {
+            "type": "Bakery",
+            "price": 1.5,
+            "quantity": 80,
+            "expiry_date": "2024-09-22"
+        },
+        "Quinoa": {
+            "type": "Grain",
+            "price": 3,
+            "quantity": 200,
+            "expiry_date": "2024-08-15"
+        },
+        "Barley": {
+            "type": "Grain",
+            "price": 2.5,
+            "quantity": 150,
+            "expiry_date": "2024-09-05"
+        },
+        "Arugula": {
+            "type": "Vegetable",
+            "price": 1.1,
+            "quantity": 90,
+            "expiry_date": "2024-02-15"
+        },
+        "Kale": {
+            "type": "Vegetable",
+            "price": 1.3,
+            "quantity": 80,
+            "expiry_date": "2024-05-22"
+        },
+        "Cauliflower": {
+            "type": "Vegetable",
+            "price": 1.2,
+            "quantity": 60,
+            "expiry_date": "2024-08-11"
+        },
+        "Bell Peppers": {
+            "type": "Vegetable",
+            "price": 1.5,
+            "quantity": 70,
+            "expiry_date": "2024-10-03"
+        },
+        "Portobello Mushrooms": {
+            "type": "Vegetable",
+            "price": 2.2,
+            "quantity": 40,
+            "expiry_date": "2024-07-09"
+        },
+        "Whipped Cream": {
+            "type": "Dairy",
+            "price": 1.9,
+            "quantity": 60,
+            "expiry_date": "2024-11-26"
+        },
+        "Ghee": {
+            "type": "Dairy",
+            "price": 2.8,
+            "quantity": 45,
+            "expiry_date": "2024-09-14"
+        },
+        "Organic Eggs": {
+            "type": "Dairy",
+            "price": 3,
+            "quantity": 100,
+            "expiry_date": "2024-06-01"
+        },
+        "Venison": {
+            "type": "Meat",
+            "price": 10,
+            "quantity": 25,
+            "expiry_date": "2024-04-27"
+        },
+        "Duck": {
+            "type": "Meat",
+            "price": 9.5,
+            "quantity": 20,
+            "expiry_date": "2024-12-07"
+        }
+    }
+}

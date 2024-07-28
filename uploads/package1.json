@@ -1,0 +1,146 @@
+{
+  "groceryItems": [
+    "Apple",
+    "Banana",
+    "Orange",
+    "Tomato",
+    "Potato",
+    "Carrot",
+    "Milk",
+    "Cheese",
+    "Yogurt",
+    "Chicken",
+    "Beef",
+    "Pork",
+    "Salmon",
+    "Tuna",
+    "Shrimp",
+    "Bread",
+    "Croissant",
+    "Bagel",
+    "Rice",
+    "Pasta"
+  ],
+  "itemDetails": {
+    "Apple": {
+      "type": "Fruit",
+      "price": 0.5,
+      "quantity": 100,
+      "expiry_date": "2024-09-15"
+    },
+    "Banana": {
+      "type": "Fruit",
+      "price": 0.3,
+      "quantity": 150,
+      "expiry_date": "2024-10-22"
+    },
+    "Orange": {
+      "type": "Fruit",
+      "price": 0.6,
+      "quantity": 120,
+      "expiry_date": "2024-08-05"
+    },
+    "Tomato": {
+      "type": "Vegetable",
+      "price": 0.8,
+      "quantity": 80,
+      "expiry_date": "2024-11-18"
+    },
+    "Potato": {
+      "type": "Vegetable",
+      "price": 0.4,
+      "quantity": 200,
+      "expiry_date": "2024-07-30"
+    },
+    "Carrot": {
+      "type": "Vegetable",
+      "price": 0.5,
+      "quantity": 150,
+      "expiry_date": "2024-09-10"
+    },
+    "Milk": {
+      "type": "Dairy",
+      "price": 1.5,
+      "quantity": 50,
+      "expiry_date": "2024-08-25"
+    },
+    "Cheese": {
+      "type": "Dairy",
+      "price": 2.5,
+      "quantity": 30,
+      "expiry_date": "2024-09-12"
+    },
+    "Yogurt": {
+      "type": "Dairy",
+      "price": 1.0,
+      "quantity": 60,
+      "expiry_date": "2024-07-15"
+    },
+    "Chicken": {
+      "type": "Meat",
+      "price": 5.0,
+      "quantity": 40,
+      "expiry_date": "2024-10-08"
+    },
+    "Beef": {
+      "type": "Meat",
+      "price": 7.0,
+      "quantity": 30,
+      "expiry_date": "2024-08-20"
+    },
+    "Pork": {
+      "type": "Meat",
+      "price": 6.0,
+      "quantity": 35,
+      "expiry_date": "2024-09-28"
+    },
+    "Salmon": {
+      "type": "Seafood",
+      "price": 10.0,
+      "quantity": 25,
+      "expiry_date": "2024-09-02"
+    },
+    "Tuna": {
+      "type": "Seafood",
+      "price": 8.0,
+      "quantity": 20,
+      "expiry_date": "2024-11-14"
+    },
+    "Shrimp": {
+      "type": "Seafood",
+      "price": 12.0,
+      "quantity": 15,
+      "expiry_date": "2024-07-12"
+    },
+    "Bread": {
+      "type": "Bakery",
+      "price": 1.0,
+      "quantity": 100,
+      "expiry_date": "2024-10-30"
+    },
+    "Croissant": {
+      "type": "Bakery",
+      "price": 1.5,
+      "quantity": 70,
+      "expiry_date": "2024-08-18"
+    },
+    "Bagel": {
+      "type": "Bakery",
+      "price": 1.2,
+      "quantity": 80,
+      "expiry_date": "2024-09-22"
+    },
+    "Rice": {
+      "type": "Grain",
+      "price": 2.0,
+      "quantity": 200,
+      "expiry_date": "2024-08-15"
+    },
+    "Pasta": {
+      "type": "Grain",
+      "price": 1.8,
+      "quantity": 150,
+      "expiry_date": "2024-09-05"
+    }
+  }
+}

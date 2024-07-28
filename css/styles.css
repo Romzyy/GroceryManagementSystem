@@ -1,0 +1,307 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container Styles */
+.container {
+    width: 450px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px 30px;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.index-container.card{
+    width: 450px;
+    text-align: center;
+}
+
+.inventory-container{
+    max-width: 1250px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px 30px;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+    text-align: center; 
+    margin-top: 85px;
+}
+
+.inventory-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.add-item-container,
+.update-quantity-container {
+    width: 90%;
+    max-width: 600px; 
+    margin-top: 20px; 
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #343a40;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Form and Input Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: left; 
+}
+
+input[type="text"], input[type="number"], input[type="date"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;   
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    resize: vertical;
+    height: auto; 
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 20px auto 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 20px);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+    transform: translateY(-5px);
+}
+
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    appearance: none; 
+    background-color: #fff;
+}
+
+select:hover {
+    border-color: #007bff; 
+}
+
+/* Navigation Styles */
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #0056b3;
+}
+
+/* Button Styles */
+.button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 20px auto 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 20px);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: #218838;
+    transform: translateY(-5px);
+}
+
+/* Inventory Card Styles */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.status {    
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 12px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.card:hover .status {
+    visibility: visible;
+    opacity: 1;
+}
+
+.valid {
+    background-color: #28a745; 
+    color: #fff;
+}
+
+.expired {
+    background-color: #dc3545; 
+    color: #fff;
+}
+
+/* Order Summary Container */
+.order-summary-container {
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Order Summary Styles */
+.order-summary {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.order-summary p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.order-summary .total {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.order-summary ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* Payment Method Styles */
+.radio-group {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-group label {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Error Message Styles */
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Logout Button */
+.logout {
+    display: inline-block;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout:hover {
+    background-color: #c82333;
+    transform: translateY(-3px);
+}

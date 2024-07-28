@@ -1,0 +1,13 @@
+product_name,type,price,quantity,expiry_date
+Lettuce,Vegetable,0.7,90,2024-02-15
+Spinach,Vegetable,1,80,2024-05-22
+Broccoli,Vegetable,1.2,60,2024-08-11
+Cucumber,Vegetable,0.9,70,2024-10-03
+Peppers,Vegetable,1.5,50,2024-03-18
+Mushrooms,Vegetable,2,40,2024-07-09
+Cream,Dairy,1.7,60,2024-11-26
+Butter,Dairy,2.2,45,2024-09-14
+Eggs,Dairy,2.5,100,2024-06-01
+Lamb,Meat,8,25,2024-04-27
+Turkey,Meat,7.5,20,2024-12-07
+Bacon,Meat,6,,2024-01-10

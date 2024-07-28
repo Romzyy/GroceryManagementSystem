@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Romit Patel",
+        "address": "124 Galt Avenue",
+        "payment": "Cash",
+        "items": [
+            {
+                "name": "Apple",
+                "quantity": 50,
+                "price": 0.5
+            },
+            {
+                "name": "Banana",
+                "quantity": 50,
+                "price": 0.3
+            }
+        ]
+    },
+    {
+        "name": "Avnee Patel",
+        "address": "124 Galt Avenue",
+        "payment": "Debit",
+        "items": [
+            {
+                "name": "Apple",
+                "quantity": 25,
+                "price": 0.5
+            },
+            {
+                "name": "Banana",
+                "quantity": 25,
+                "price": 0.3
+            }
+        ]
+    },
+    {
+        "name": "Jeet Patel",
+        "address": "565 Sherbourne Street",
+        "payment": "Cash",
+        "items": [
+            {
+                "name": "Apple",
+                "quantity": 10,
+                "price": 0.5
+            }
+        ]
+    },
+    {
+        "name": "Jay Rajeshkumar Patel",
+        "address": "Unit 225, 260 John Garland Blvd, Toronto, ON M9V 1N8",
+        "payment": "Credit",
+        "items": [
+            {
+                "name": "Bread",
+                "quantity": 4,
+                "price": "3.9"
+            },
+            {
+                "name": "Rice",
+                "quantity": 3,
+                "price": "19.99"
+            }
+        ]
+    }
+]

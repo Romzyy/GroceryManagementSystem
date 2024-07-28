@@ -1,0 +1,32 @@
+{
+    "Apple": {
+        "name": "Apple",
+        "quantity": 85
+    },
+    "Banana": {
+        "name": "Banana",
+        "quantity": 75
+    },
+    "Orange": {
+        "name": "Orange",
+        "quantity": 60
+    },
+    "Grapes": {
+        "name": "Grapes",
+        "quantity": 50
+    },
+    "Strawberry": {
+        "name": "Strawberry",
+        "quantity": 40
+    },
+    "Bread": {
+        "name": "Bread",
+        "quantity": 4,
+        "price": "3.9"
+    },
+    "Rice": {
+        "name": "Rice",
+        "quantity": 3,
+        "price": "19.99"
+    }
+}
